@@ -1,0 +1,123 @@
+/* Write your CSS here */
+p {
+  font-family: 'Roboto';
+}
+.main-container {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 12px;
+}
+.heading1 {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 35px;
+  color: #1e293b;
+  margin: 0px;
+}
+.description1 {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  color: #334155;
+}
+.span-element {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+}
+.container3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 576px) {
+  .container3 {
+    flex-direction: column;
+  }
+}
+
+.cont-3-heading {
+  color: #334155;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+.form-element {
+  display: flex;
+  flex-direction: column;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
+  border-radius: 12px;
+  border-color: #7e858e;
+  border: 1px solid;
+  margin-bottom: 15px;
+  width: 100%;
+  margin-right: 10px;
+}
+.label-input {
+  color: #7e858e;
+  font-weight: 500;
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+.title-input {
+  height: 27px;
+  border-color: #cbd5e1;
+  border: 1px solid;
+  outline: none;
+  margin-bottom: 15px;
+}
+.button {
+  border: none;
+  border-radius: 7px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  height: 30px;
+  margin-bottom: 15px;
+  width: 75px;
+}
+.transactions-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
+  border-radius: 12px;
+  border-color: #7e858e;
+  border: 1px solid;
+  width: 100%;
+}
+
+.ul-list {
+  margin: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+.transaction-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.transaction-item-heading {
+  font-weight: 500;
+  font-size: 20px;
+}
